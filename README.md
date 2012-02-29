@@ -10,6 +10,9 @@ iCloud Key-Value Storage lets your code share a collection of key-value
 pairs across all devices registered with the same App Store login. That's
 why it is called chat2_self_.
 
+To set it up on your system you'll need to configure the BundleId, Provisioning Profile,
+and Entitlements.plist (with your TeamId) so that iCloud will work.
+
 Each time you enter a message, it is saved to the local Key-Value storage
 collection. iOS then decides when to synchronize that key with iCloud. 
 Other devices similarly decide when to synchronise their local iCloud
