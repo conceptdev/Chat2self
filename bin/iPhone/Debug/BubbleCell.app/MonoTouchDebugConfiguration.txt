@@ -1,0 +1,3 @@
+IP: 192.168.0.20
+USB Debugging: 1
+Port: 10000
