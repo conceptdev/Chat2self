@@ -13,6 +13,13 @@ using MonoTouch.Dialog;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
 
+// MAKE SURE YOU:
+// * update the bundleid to your own value in Info.plist
+// * create a provisioning profile for that bundleid
+// * ensure the provisioning profile has iCloud turned on
+// * update the TEAMID in the Entitlements.plist
+// * update the bundleid in the Entitlements.plist
+// * have iCloud enabled on your iOS5 devices
 namespace BubbleCell
 {
 	[Register ("AppDelegate")]
