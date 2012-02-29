@@ -19,6 +19,8 @@ Other devices similarly decide when to synchronise their local iCloud
 key-value storage, and when they detect new values they trigger a notification
 that causes the latest value of each key to be displayed in the message list.
 
+![screenshot](http://4.bp.blogspot.com/-SufxNqZ61IE/T04BgKrrqAI/AAAAAAAABWU/junjqplS1EI/s1600/chat2self.png "Sample") 
+
 You - the developer - has NO control over the timing of iCloud synchronisation.
 Using this app will give you some idea of the latency between devices updating
 their iCloud storage for small values.
